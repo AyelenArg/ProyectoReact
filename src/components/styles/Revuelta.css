@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Quicksand:wght@300&display=swap');
+
+.revuelta {
+    width: 100%;
+    height: 100vh;
+    background: position 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .title{
+    font-size: 2rem;
+  }
+  .revuelta-slide-1 {
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-dorado-palmera_53876-108441.jpg?w=900&t=st=1675473652~exp=1675474252~hmac=564b18048a41fe1830cdb8dea66b57594585f5ea3007e259340f769942996eae');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .revuelta-container {
+    display: grid;
+    grid-template: 1fr 2fr 1fr / 0.5fr 2fr 0.5fr;
+    height: 100%;
+  }
+  
+  .revuelta-container__text-box {
+    background-color: #fdfdf680;
+    padding: 25px;
+    grid-column: 2;
+    grid-row: 2;
+    color: #a1866c;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .revuelta-container__text-box h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3.4rem;
+    font-weight: 700;
+  }
+  
+  .revuelta-container__text-box p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 30px auto;
+    max-width: 360px;
+  }
+  
+  .button-primary {
+    background-color:#a1866cce;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Quicksand', sans-serif;
+    color: #fdfdf6cd;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 20px auto;
+    width: 112px;
+    height: 36px;
+    cursor: pointer;
+  }
+  
+  /*Voy a incluir mis mediaqueries acá*/
+  
+  @media only screen and (min-width: 800px) {
+    .revuelta-container {
+      display: grid;
+      grid-template: 1fr 2fr 1fr / 1fr 2fr 1fr;
+      height: 100%;
+    }
+  
+    .revuelta-container__text-box h1 {
+      font-size: 3.8rem;
+      font-weight: 800;
+      margin-top: 30px;
+    }
+  
+    .revuelta-container__text-box p {
+      font-size: 1.2rem;
+      font-weight: 300;
+      max-width: 420px;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .revuelta {
+      background-position: center;
+    }
+  
+    .revuelta-container__text-box h1 {
+      font-size: 4rem;
+    }
+  }
+  
