@@ -10,7 +10,6 @@ import React from 'react';
 
 const NavBar = ({background})=>{
 
-const logo ="../public/img/logo.png";
 
 return (
     
@@ -47,7 +46,7 @@ return (
 
     
      <div className="logo-container">
-        <img src={logo} alt="logo" />
+        <img src='./img/logo.png' alt="logo" />
     </div>
 
    <CartWidget/> 

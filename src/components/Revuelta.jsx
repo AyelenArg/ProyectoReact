@@ -12,7 +12,7 @@ const Revuelta = ({title})=>{
         
         <p>Encontrá el objeto perfecto para revolucionar tus espacios</p>
     </p>
-<button className="button-primary">Comprar</button>
+<button type="submit" className="button-primary">COMPRAR</button>
 </article>
     </div>
 </section>
